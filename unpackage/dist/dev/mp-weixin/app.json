@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/index/index",
+    "pages/bind/bind-parent/bind-parent",
+    "pages/my-info/my-info",
+    "pages/sign_up_list/sign_up_list",
+    "pages/sign_up_list/station_choose/station_choose"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

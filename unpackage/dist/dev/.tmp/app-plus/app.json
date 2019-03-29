@@ -1,7 +1,9 @@
 {
   "pages": [
-    "pages/main/main/main",
-    "pages/index/index"
+    "pages/main/main",
+    "pages/index/index",
+    "pages/bind/bind-parent/bind-parent",
+    "pages/my-info/my-info"
   ],
   "subPackages": [],
   "window": {

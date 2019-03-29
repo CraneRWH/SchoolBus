@@ -1,0 +1,108 @@
+
+.uni-status-bar {
+    display: block;
+    width: 100%;
+    height: 20px;
+    height: 25px;
+}
+
+
+.uni-navbar {
+        display: block;
+        position: relative;
+        width: 100%;
+        background-color: #FFFFFF;
+        overflow: hidden;
+}
+.uni-navbar view{
+		line-height:44px;
+}
+.uni-navbar-shadow {
+        -webkit-box-shadow: 0 1px 6px #ccc;
+                box-shadow: 0 1px 6px #ccc;
+}
+.uni-navbar.uni-navbar-fixed {
+        position: fixed;
+        z-index: 998;
+}
+.uni-navbar-header {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        width: 100%;
+        height:44px;
+        line-height:44px;
+        font-size: 16px;
+}
+.uni-navbar-header .uni-navbar-header-btns{
+		display:-webkit-inline-box;
+		display:-webkit-inline-flex;
+		display:-ms-inline-flexbox;
+		display:inline-flex;
+		-webkit-flex-wrap:nowrap;
+		    -ms-flex-wrap:nowrap;
+		        flex-wrap:nowrap;
+		-webkit-flex-shrink:0;
+		    -ms-flex-negative:0;
+		        flex-shrink:0;
+		width: 120rpx;
+		padding:0 12rpx;
+}
+.uni-navbar-header .uni-navbar-header-btns:first-child{
+		padding-left:0;
+}
+.uni-navbar-header .uni-navbar-header-btns:last-child{
+		width: 60rpx;
+}
+.uni-navbar-container{
+		width:100%;
+		margin:0 10rpx;
+}
+.uni-navbar-container-title{
+		font-size:30rpx;
+		text-align:center;
+		padding-right: 60rpx;
+}
+
+
+.row_item {
+	-webkit-box-align:Center;
+	-webkit-align-items:Center;
+	    -ms-flex-align:Center;
+	        align-items:Center;
+	padding-left: 40rpx;
+}
+.left_title {
+	height: 50rpx;
+	font-size:28rpx;
+	background:#FFF;
+}
+.mobile_code_text {
+	height: 50rpx;
+	padding: 15rpx 25rpx;
+	line-height:50rpx;
+	font-size:28rpx;
+	background:#FFF;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	-webkit-flex-shrink:1;
+	    -ms-flex-negative:1;
+	        flex-shrink:1;
+}
+.mobile_code_btn {
+	font-size:28rpx;
+	margin-right: 20rpx;
+}
+.bind_btn{
+	font-size:28rpx;
+	margin: 50rpx;
+}
+

@@ -1,0 +1,38 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "",
+  "appid": "touristappid",
+  "projectname": "schoolbus",
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 0,
+      "list": [
+        {
+          "name": "我的信息",
+          "query": "",
+          "id": 0,
+          "pathName": "pages/my-info/my-info"
+        }
+      ]
+    }
+  }
+}

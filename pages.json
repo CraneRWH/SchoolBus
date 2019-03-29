@@ -1,7 +1,7 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-            "path" : "pages/main/main/main",
+            "path" : "pages/main/main",
             "style" : {
 				"navigationBarTitleText": "童泰智慧校车"
 			}
@@ -11,12 +11,46 @@
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
-		}
+		},
+		{
+            "path" : "pages/bind/bind-parent/bind-parent",
+            "style" : {
+				"navigationBarTitleText":"家长绑定"
+			}
+        }
+        ,{
+            "path" : "pages/my-info/my-info",
+            "style" : {
+				"navigationBarTitleText":"家长信息"
+			}
+        }
+        ,{
+            "path" : "pages/sign_up_list/sign_up_list",
+            "style" : {
+				"navigationBarTitleText":"报名列表"
+			}
+        }
+        ,{
+            "path" : "pages/sign_up_list/station_choose/station_choose",
+            "style" : {
+				"navigationBarTitleText":"选择上下车站点"
+			}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "我的信息", //模式名称
+				"path": "pages/my-info/my-info", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
 	}
 }

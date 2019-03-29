@@ -1,0 +1,1 @@
+<template name="76fa587c"><view class="_view 76fa587c"><uni-nva-bar fixed="{{true}}" status-bar="{{true}}" left-icon="back" bindclick-left="handleProxy" title="我的信息" data-eventid="{{'76fa587c-0'}}" data-comkey="{{$k}}" class="_uni-nva-bar 76fa587c"></uni-nva-bar></view></template>
